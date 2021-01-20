@@ -125,3 +125,11 @@ A veces creamos archivos cuando estamos realizando nuestro proyecto que realment
 Para saber qué archivos vamos a borrar tecleamos git clean --dry-run | 
 Para borrar todos los archivos listados (que no son carpetas) tecleamos git clean -f |
 
+
+|Git Reset y Reflog: úsese en caso de emergencia
+¿Qué pasa cuando todo se rompe y no sabemos qué está pasando? Con git reset HashDelHEAD nos devolveremos al estado en que el proyecto funcionaba.
+
+git reset --soft HashDelHEAD te mantiene lo que tengas en staging ahí.
+git reset --hard HashDelHEAD resetea absolutamente todo incluyendo lo que tengas en staging.
+git reset es una mala práctica, no deberías usarlo en ningún momento; debe ser nuestro último recurso.
+
