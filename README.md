@@ -119,7 +119,8 @@ _A list of commonly used Git and Terminal commands_
 
 
 
-Git Clean: limpiar tu proyecto de archivos no deseados
+Git Clean: limpiar tu proyecto de archivos no deseados|
+
 A veces creamos archivos cuando estamos realizando nuestro proyecto que realmente no forman parte de nuestro directorio de trabajo, que no se deberían agregar y lo sabemos.
 Para saber qué archivos vamos a borrar tecleamos git clean --dry-run
 Para borrar todos los archivos listados (que no son carpetas) tecleamos git clean -f
