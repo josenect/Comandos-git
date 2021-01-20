@@ -104,7 +104,13 @@ _A list of commonly used Git and Terminal commands_
 ### Others / Otros
 
 | Command | Description | Descripción |
-| ------- | ----------- | ----------- |
+| ------- | ----------- | ----------- 
+Git Clean: limpiar tu proyecto de archivos no deseados : A veces creamos archivos cuando estamos realizando nuestro proyecto que realmente no forman parte de nuestro directorio de trabajo, que no se deberían agregar y lo sabemos.
+
+Para saber qué archivos vamos a borrar tecleamos git clean --dry-run
+Para borrar todos los archivos listados (que no son carpetas) tecleamos git clean -f
+
+| `git tag -a [name] -m "message" [id/hashtag]` | Create a tag for a commit | Crea un tag de un commit
 | `alias [name=] "command"` | Create a shorcut for a command | Crea un alias para llamar a un comando |
 | `git tag -a [name] -m "message" [id/hashtag]` | Create a tag for a commit | Crea un tag de un commit en especifico |
 | `git show-ref --tags` | List all tags | Lista los tags existentes |
